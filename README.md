@@ -17,3 +17,8 @@ PATCH http://localhost:9090/products/:id
 Body : partial product
 ```
 Update the product in db with the partial data given
+
+```
+DELETE http://localhost:9090/products/:id
+```
+Delete the requested product in db

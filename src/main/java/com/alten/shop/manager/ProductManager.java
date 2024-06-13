@@ -30,4 +30,8 @@ public class ProductManager {
         this.productRepository.save(existingProduct);
         return existingProduct;
     }
+
+    public void deleteProduct(Long id) {
+        this.productRepository.deleteById(id);
+    }
 }

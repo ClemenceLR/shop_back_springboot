@@ -32,5 +32,10 @@ public class ProductController {
         return this.productManager.updateProduct(id,productToPatch);
     }
 
+    @DeleteMapping("/{id}")
+    public void deleteProduct(@PathVariable("id") Long id) {
+        log.info("[ProductController] Delete product {}", id);
+        this.productManager.deleteProduct(id);
+    }
 
 }
