@@ -27,15 +27,21 @@ public class ProductController {
     }
 
     @PatchMapping("/{id}")
-    public Product updateProduct(@PathVariable("id") Long id, @RequestBody Product productToPatch) {
+    public Product updateProduct(@PathVariable("id") Long id, @RequestBody Product partialProduct) {
         log.info("[ProductController] Update product {}", id);
-        return this.productManager.updateProduct(id,productToPatch);
+        return this.productManager.updateProduct(id,partialProduct);
     }
 
     @DeleteMapping("/{id}")
     public void deleteProduct(@PathVariable("id") Long id) {
         log.info("[ProductController] Delete product {}", id);
         this.productManager.deleteProduct(id);
+    }
+
+    @PostMapping()
+    public void createProduct(@RequestBody Product product) {
+        log.info("[ProductController] Create product {}", product);
+        this.productManager.createProduct(product);
     }
 
 }
