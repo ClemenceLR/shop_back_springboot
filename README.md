@@ -3,7 +3,7 @@ It contains a backen spring boot serving products items
 
 ### Access the different routes :
 ```
-GET localhost:3000/products
+GET http://localhost:3000/products
 ```
 Retrieves all the products from the database and provide them in json format
 
