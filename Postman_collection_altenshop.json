@@ -124,7 +124,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\":\"Grave of the fireflies\"\n}\n",
+					"raw": "{\n    \"name\":\"Energy Drink\"\n}\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -297,7 +297,7 @@
 	"variable": [
 		{
 			"key": "id",
-			"value": "3"
+			"value": "1029"
 		},
 		{
 			"key": "base_url",
