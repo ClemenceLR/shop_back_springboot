@@ -253,7 +253,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"code\":\"P004\",\n    \"name\":\"The wind rises\",\n    \"description\":\"Movie by the Ghiblis studio\",\n    \"price\":10,\n    \"quantity\":105,\n    \"inventoryStatus\":\"In Stock\",\n    \"category\":\"MOVIE\",\n    \"image\":\"http://example.com/image4.jpg\",\n    \"rating\":4\n}",
+					"raw": "{\n    \"code\":\"P004\",\n    \"name\":\"Drinks\",\n    \"description\":\"Product description\",\n    \"price\":10,\n    \"quantity\":105,\n    \"inventoryStatus\":\"In Stock\",\n    \"category\":\"FOOD\",\n    \"image\":\"http://example.com/image4.jpg\",\n    \"rating\":4\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -301,7 +301,7 @@
 		},
 		{
 			"key": "base_url",
-			"value": "http://localhost:9090"
+			"value": "http://localhost:3000"
 		}
 	]
 }
