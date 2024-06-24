@@ -1,7 +1,7 @@
-package com.alten.shop.controller;
+package com.shop.controller;
 
-import com.alten.shop.dao.Product;
-import com.alten.shop.manager.ProductManager;
+import com.shop.dao.Product;
+import com.shop.manager.ProductManager;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

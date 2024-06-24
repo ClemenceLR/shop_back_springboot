@@ -1,6 +1,6 @@
-package com.alten.shop.repository;
+package com.shop.repository;
 
-import com.alten.shop.dao.Product;
+import com.shop.dao.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

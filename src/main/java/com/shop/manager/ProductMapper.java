@@ -1,6 +1,6 @@
-package com.alten.shop.manager;
+package com.shop.manager;
 
-import com.alten.shop.dao.Product;
+import com.shop.dao.Product;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;

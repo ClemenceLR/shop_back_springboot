@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.</groupId>
-	<artifactId>alten.shop</artifactId>
+	<artifactId>shop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>alten.shop</name>
-	<description>Alten shop</description>
+	<name>shop</name>
+	<description>Spring boot shop</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>

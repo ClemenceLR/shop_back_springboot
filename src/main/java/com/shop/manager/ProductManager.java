@@ -1,8 +1,8 @@
-package com.alten.shop.manager;
+package com.shop.manager;
 
-import com.alten.shop.dao.Product;
-import com.alten.shop.exceptions.ObjectNotFoundException;
-import com.alten.shop.repository.ProductRepository;
+import com.shop.dao.Product;
+import com.shop.exceptions.ObjectNotFoundException;
+import com.shop.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

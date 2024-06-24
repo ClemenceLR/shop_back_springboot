@@ -1,8 +1,7 @@
-package com.alten.shop.utils;
+package com.shop.utils;
 
-import com.alten.shop.dao.Product;
+import com.shop.dao.Product;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class TestConstants {

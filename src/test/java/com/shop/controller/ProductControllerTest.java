@@ -1,8 +1,8 @@
-package com.alten.shop.controller;
+package com.shop.controller;
 
-import com.alten.shop.dao.Product;
-import com.alten.shop.manager.ProductManager;
-import com.alten.shop.utils.TestConstants;
+import com.shop.dao.Product;
+import com.shop.manager.ProductManager;
+import com.shop.utils.TestConstants;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

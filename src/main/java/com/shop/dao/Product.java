@@ -1,4 +1,4 @@
-package com.alten.shop.dao;
+package com.shop.dao;
 
 import jakarta.persistence.*;
 import lombok.Data;
