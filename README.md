@@ -1,4 +1,4 @@
-This project contains a backen spring boot serving products items
+This project contains a backend spring boot serving products items
 
 ### Access the different routes :
 ```
