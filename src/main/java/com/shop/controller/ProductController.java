@@ -12,8 +12,13 @@ import java.util.List;
 @RequestMapping("/products")
 @Slf4j
 public class ProductController {
+
+    private final ProductManager productManager;
+
     @Autowired
-    private ProductManager productManager;
+    public ProductController(ProductManager productManager) {
+        this.productManager = productManager;
+    }
     @GetMapping()
     public List<Product> getAllProducts(){
         log.info("[ProductController] Retrieving all products");

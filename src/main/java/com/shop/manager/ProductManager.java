@@ -10,11 +10,15 @@ import java.util.List;
 
 @Service
 public class ProductManager {
-    @Autowired
-    private ProductRepository productRepository;
+
+    private final ProductRepository productRepository;
+    private final ProductMapper mapper;
 
     @Autowired
-    private ProductMapper mapper;
+    public ProductManager(ProductRepository productRepository, ProductMapper mapper) {
+        this.productRepository = productRepository;
+        this.mapper = mapper;
+    }
 
     public List<Product> retrieveAllProducts(){
         return this.productRepository.findAll();
